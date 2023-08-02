@@ -1,0 +1,38 @@
+
+
+body {
+	background: #abbaab; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #ffffff, #abbaab); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	font-family:Arial;
+	font-size:medium;
+}
+
+
+button {
+	padding: 7px 13px;
+	border: 1px solid #007bff;
+	color: #007bff;
+	transition: color .15s ease-in-out, background-color .15s ease-in-out;
+}
+input {
+	color: #3ea7f2;
+	font-size: 13px;
+	padding: 7px 13px;
+	border-radius: 5px;
+	
+}
+
+select {
+	color: #3ea7f2;
+	font-size: 13px;
+	padding: 7px 13px;
+	border-radius: 5px;
+
+	
+}
+.centered{
+	text-align:center !important;
+	vertical-align:middle !important;
+}
